@@ -10,7 +10,6 @@
          * @return Integer
          */
         function uniquePaths($m, $n) {
-            $counter = 0;
             if($m==1 || $n==1){
                 return 1;
             }
